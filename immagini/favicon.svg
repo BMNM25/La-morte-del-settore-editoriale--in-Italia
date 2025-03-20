@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1b;
+        font-family: Gloock-Regular, Gloock;
+        font-size: 34.86px;
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: url(#Sfumatura_senza_nome_27);
+      }
+    </style>
+    <linearGradient id="Sfumatura_senza_nome_27" data-name="Sfumatura senza nome 27" x1="24" y1="0" x2="24" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset=".69" stop-color="#1aa749"/>
+      <stop offset="1" stop-color="#0a4320"/>
+    </linearGradient>
+  </defs>
+  <circle class="cls-2" cx="24" cy="24" r="24"/>
+  <text class="cls-1" transform="translate(14.19 32.93)"><tspan x="0" y="0">L</tspan></text>
+</svg>

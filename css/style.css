@@ -1,0 +1,243 @@
+body{
+    background: linear-gradient(#0DA949 36%, #05431D 100%);
+    font-family: Glegoo, Helvetica, sans-serif;;
+    margin: 0;
+}
+
+
+header{
+    max-width: 100%;
+    height: 89px;
+    background-color: #E0DBDB;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Glegoo', serif;
+}
+
+header nav ul {
+list-style: none;
+display: flex;
+margin: 45px auto;
+gap: 16px;
+font-weight: bold;
+font-size: 15pt;
+}
+
+header nav  a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover{
+    color: #3f3e3e;
+}
+
+section.titolo h1{
+    font-size: 74px;
+    font-weight: bold;
+     margin: 195px 0 0 200px;
+     line-height: 1; 
+}
+
+section.titolo h2{
+    font-size: 15px;
+    font-weight: normal;
+  margin-left: 200px;
+}
+
+section.titolo h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+  
+section div{
+    display: flex;
+}
+
+.img1 img {
+    width: 100%;
+    max-width: 1141px;
+    max-height: 605px;
+    border-radius: 65px;
+    display: block;
+    margin: 50px auto 0;
+    object-fit: cover;
+}
+
+.img1 p {
+    font-size: 20px; 
+    font-family: Gotham, Helvetica, sans-serif;
+    line-height: 1; 
+    text-align: left; 
+    margin: 150px auto; 
+    max-width: 900px; 
+}
+
+.img2 img {
+    width: 100%;
+    height: 383px; 
+    display: block;
+    margin: 250px auto 0;
+    object-fit: cover;
+}
+
+.img2 h1 {
+    font-size: 96px; 
+    margin-bottom: 55px; 
+    margin-left: 300px;
+} 
+
+.img2 p {
+    font-size: 20px; 
+    font-family: Gotham, Helvetica, sans-serif;
+    line-height: 1; 
+    text-align: left; 
+    margin: 10px auto; 
+    max-width: 900px; 
+}
+
+.img3 img {
+    width: 100%;
+    height: 383px; 
+    display: block;
+    margin: 250px auto 0;
+    object-fit: cover;
+}
+
+.img3 h1 {
+    font-size: 96px; 
+    margin-bottom: 55px; 
+    margin-left: 300px;
+} 
+
+.img3 p {
+    font-size: 20px; 
+    font-family: Gotham, Helvetica, sans-serif;
+    line-height: 1; 
+    text-align: left; 
+    margin: 30px auto; 
+    max-width: 900px; 
+}
+
+footer {
+    background-color: #E0DBDB; 
+    height: 200px;
+    margin-top: 1000px; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.f1{
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+
+.f2{
+    font-size: 13px;
+    font-weight: normal;
+   
+}
+
+.f1 span,
+.f2 span {
+    cursor: pointer; 
+}
+
+.f1 span:hover,
+.f2 span:hover {
+    color: #3f3e3e;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:600px) {
+   
+    section.titolo h1{
+        font-size: 50px;
+        margin: 195px 10px 0 25px;
+        line-height: 1; 
+    }
+
+    section.titolo h2{
+        font-size: 10px;
+        font-weight: normal;
+      margin-left: 25px;
+    }
+    
+    section.titolo h3{
+        font-size: 10px;
+        font-weight: bold;
+        margin-left: 8px;
+    }
+
+    .img1 img {
+        width: 80%;
+        max-width: 570px;
+        max-height: 350px;
+        border-radius: 65px;
+        display: block;
+        margin: 100px auto 0;
+        object-fit: cover;
+    }
+    
+    .img1 p {
+        font-family: Gotham, Helvetica, sans-serif;
+        font-size: 16px;  
+        line-height: 1; 
+        text-align: left; 
+        padding: 30px; 
+    }
+
+    .img2 h1 {
+        font-size: 70px; 
+        margin-bottom: 55px; 
+        margin-left: 30px;
+    } 
+    
+    .img2 p {
+        font-family: Gotham, Helvetica, sans-serif;
+        font-size: 16px;  
+        line-height: 1; 
+        text-align: left; 
+        padding: 30px; 
+    }
+
+    .img2 img {
+        width: 100%;
+        height: 383px; 
+        display: block;
+        margin: 100px auto 0;
+        object-fit: cover;
+
+    }
+
+    .img3 img {
+        width: 100%;
+        height: 383px; 
+        display: block;
+        margin: 100px auto 0;
+        object-fit: cover;
+
+    }
+    
+    .img3 h1 {
+        font-size: 70px; 
+        margin-bottom: 55px; 
+        margin-left: 30px;
+    } 
+    
+    .img3 p {
+        font-family: Gotham, Helvetica, sans-serif;
+        font-size: 16px;  
+        line-height: 1; 
+        text-align: left; 
+        padding: 30px; 
+    }
+
+    }
