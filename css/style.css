@@ -178,10 +178,10 @@ footer {
     .img1 img {
         width: 90%;
         max-width: 570px;
-        height: auto; 
+        height: 500px; 
         border-radius: 8vw;
         display: block;
-        margin: 10vw auto 0;
+        margin: 100px auto 0px;
         object-fit: cover;
     }
 
@@ -195,8 +195,8 @@ footer {
 
     .img2 h1, .img3 h1 {
         font-size: 10vw;
-        margin-bottom: 8vw;
-        padding-left: 5%;
+        margin-bottom: 55px; 
+        margin-left: 30px;
     }
 
     .img2 p, .img3 p {
@@ -208,31 +208,11 @@ footer {
     }
 
     .img2 img, .img3 img {
-        width: 90%;
+        width: 100%;
         max-width: 570px;
-        height: auto;
+        height: 500px;
         display: block;
         margin: 10vw auto 0;
         object-fit: cover;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    section.titolo h1 {
-        font-size: 10vw;
-    }
-
-    section.titolo h2, section.titolo h3 {
-        font-size: 5vw;
-    }
-
-    .img1 img, .img2 img, .img3 img {
-        width: 95%;
-        border-radius: 10vw;
-    }
-
-    .img1 p, .img2 p, .img3 p {
-        font-size: 5vw;
-        padding: 6vw;
     }
 }
